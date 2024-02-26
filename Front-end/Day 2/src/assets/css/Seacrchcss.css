@@ -1,0 +1,24 @@
+/* src/assets/css/Seacrchcss.css */
+
+/* Style for the navigation bar */
+.navbar {
+    padding: 10px 0;
+    background-color: #f8f9fa;
+  }
+  
+  /* Style for the search input */
+  .form-control {
+    border-radius: 0; /* Remove border-radius */
+  }
+  
+  /* Style for the search button */
+  .btn-outline-success {
+    border-color: #28a745; /* Change border color */
+    color: #28a745; /* Change text color */
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #28a745; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  

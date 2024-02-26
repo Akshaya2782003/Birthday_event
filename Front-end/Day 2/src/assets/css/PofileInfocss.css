@@ -1,0 +1,55 @@
+/* PofileInfocss.css */
+
+.profile-info {
+    margin-top: 20px;
+  }
+  
+  .panel {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .panel-body {
+    padding: 15px;
+  }
+  
+  .bio-graph-info {
+    margin-top: 20px;
+  }
+  
+  .bio-row {
+    margin-bottom: 10px;
+  }
+  
+  .bio-chart {
+    display: inline-block;
+  }
+  
+  .bio-desk {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+  }
+
+  .animate-color {
+    transition: background-color 0.3s ease;
+  }
+  
+  .red {
+    color: #e06b7d;
+  }
+  
+  .terques {
+    color: #4CC5CD;
+  }
+  
+  .green {
+    color: #96be4b;
+  }
+  
+  .purple {
+    color: #cba4db;
+  }
+  

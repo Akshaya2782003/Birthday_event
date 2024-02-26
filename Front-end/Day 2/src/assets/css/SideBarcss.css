@@ -1,0 +1,52 @@
+/* SideBarcss.css */
+
+.sidebar-wrapper {
+  width: 250px; /* Adjust width as needed */
+  height: 100%; /* Ensure sidebar covers the full height of the container */
+  background-color: #26867e; /* Sidebar background color */
+  color: #FFFFFF; /* Text color */
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease; /* Smooth transition for opening/closing */
+}
+
+.sidebar-wrapper.open {
+  width: 250px; /* Width when sidebar is open */
+}
+
+.sidebar-wrapper.close {
+  width: 0; /* Width when sidebar is closed */
+}
+
+.sidebar-toggle {
+  cursor: pointer; /* Show pointer cursor for toggle button */
+  padding: 10px;
+}
+
+.sidebar-content {
+  padding: 20px; /* Padding for content area */
+}
+
+.sidebar-content a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color from parent */
+}
+
+.sidebar-content a:hover {
+  color: #FFFF00; /* Change text color on hover */
+}
+
+.sidebar-menu-item {
+  padding: 10px 20px; /* Padding for menu items */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.sidebar-menu-item:hover {
+  background-color: #2a9d8f; /* Background color on hover */
+}
+
+.sidebar-footer {
+  padding: 10px 20px; /* Padding for footer */
+  text-align: center; /* Center align footer content */
+}
