@@ -1,0 +1,17 @@
+.inactive-tab {
+    color: #26867e;
+    font-weight: bolder;
+  }
+
+  .activeTab
+  {
+    color:#ffb643;
+    font-weight: bolder;
+  }
+
+  
+.inactive-tab:hover {
+  color: #ffb643; 
+  font-weight: bolder;
+}
+

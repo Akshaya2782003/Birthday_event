@@ -1,0 +1,20 @@
+.cards-container1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .cards {
+    width: 18rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .cards:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cards.active {
+    border: 2px solid blue;
+  }
+  
