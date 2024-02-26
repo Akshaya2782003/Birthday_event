@@ -1,0 +1,98 @@
+#pricing-table {
+    margin: 50px auto; /* Decreased margin to make it more centered */
+    text-align: center;
+    width: 100%; /* Changed width to 100% to occupy the full width of the window */
+    max-width: 1200px; /* Added max-width to limit expansion on large screens */
+}
+
+.clear {
+    display: flex;
+}
+
+#pricing-table .plan {
+    font: 14px 'Lucida Sans', 'Trebuchet MS', Arial, Helvetica; /* Increased font size for better readability */
+    text-shadow: 0 1px rgba(255,255,255,.8);        
+    background: #fff;      
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 30px; /* Increased padding for better spacing */
+    width: calc(33.33% - 40px); /* Changed width calculation to evenly distribute plans */
+    margin: 20px; /* Added margin for spacing between plans */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    transition: transform 0.3s ease; /* Added transition for smoother hover effect */
+}
+
+#pricing-table .plan:hover {
+    transform: scale(1.05); /* Scale up the plan on hover */
+}
+
+#pricing-table h3 {
+    font-size: 24px; /* Increased font size for better visibility */
+    font-weight: bold; /* Made font weight bold for better emphasis */
+    padding: 30px; /* Increased padding for better spacing */
+    margin: 0; /* Removed negative margin to improve layout */
+    background-color: #eee;
+    transition: background-color 0.3s; /* Added transition for smoother hover effect */
+}
+
+#pricing-table h3:hover {
+    background-color: #ddd; /* Change background color on hover */
+}
+
+#pricing-table h3 span {
+    display: block;
+    font: bold 30px/120px Georgia, Serif; /* Increased font size for better visibility */
+    color: #777;
+    background: #fff;
+    border: 8px solid #fff; /* Increased border size for better appearance */
+    height: 120px;
+    width: 120px;
+    margin: 0 auto -80px; /* Adjusted margin for better positioning */
+    border-radius: 60px; /* Adjusted border radius for better appearance */
+    transition: border-color 0.3s; /* Added transition for smoother hover effect */
+}
+
+#pricing-table h3:hover span {
+    border-color:#26867e; /* Change border color on hover */
+}
+
+#pricing-table ul {
+    margin: 30px 0 0; /* Increased margin for better spacing */
+    padding: 0;
+    list-style: none;
+}
+
+#pricing-table li {
+    border-top: 1px solid #ddd;
+    padding: 20px 0; /* Increased padding for better spacing */
+}
+
+#pricing-table .signup {
+    display: inline-block; /* Changed display to inline-block for better alignment */
+    padding: 15px 30px; /* Increased padding for better appearance */
+    margin: 30px 0 0; /* Increased margin for better spacing */
+    font: bold 16px Arial, Helvetica; /* Increased font size for better visibility */
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #26867e;
+    border-radius: 5px; /* Adjusted border radius for better appearance */
+    transition: background-color 0.3s; /* Added transition for smoother hover effect */
+}
+
+#pricing-table .signup:hover {
+    background-color: #ffb643;
+}
+
+#pricing-table .signup:active, #pricing-table .signup:focus {
+    background: #62bc30;
+    top: 2px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
+}
+
+.list
+{
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+}

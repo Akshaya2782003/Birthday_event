@@ -1,0 +1,154 @@
+/* Import Font Awesome and Google Fonts */
+@import url('https://use.fontawesome.com/releases/v5.6.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Cairo:300,600,700,900');
+
+/* Global Styles */
+body {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.025rem;
+  color: #494949;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2, h3 {
+  font-weight: 700;
+}
+
+h4, h5, h6 {
+  font-weight: 600;
+}
+
+p {
+  color: #6c757d;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.about-section {
+  width: 50%;
+  height: 100vh;
+}
+
+
+.left-header {
+  margin: 0;
+  color: #fff;
+  height: 100vh;
+  width: 50%;
+  max-width: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dbhfpccxj/image/upload/v1708845251/boy_dyzmeg.jpg');
+  background-size: cover;
+  padding: 4rem;
+}
+
+.left-header::before,
+.left-header::after {
+  background-color: #fff;
+  position: absolute;
+  content: '';
+  bottom: 50px;
+  margin: 0 1rem;
+}
+.icons
+{
+    width: 30px;
+    height: 30px;
+}
+
+.left-header::before {
+  width: 80%;
+  height: 2px;
+}
+
+.left-header::after {
+  height: 80%;
+  width: 2px;
+}
+
+/* V Center Box Styles */
+.v-center-box {
+  min-height: 100%;
+}
+
+/* Sub Heading Styles */
+.sub-heading {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  word-spacing: 0.05rem;
+}
+
+/* About Data Styles */
+.about-data {
+  position: relative;
+}
+
+.about-data::before {
+  position: absolute;
+  content: '\003c/ ABOUT \003e';
+  top: 0;
+  transform: translate(-50%, -60%);
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color:#26867e; 
+  background-color: #fff;
+  width: 8rem;
+}
+
+
+.container-fluid p-0 {
+  display: flex;
+}
+
+.about-data p {
+  font-size: 0.7rem;
+  letter-spacing: 0.05rem;
+  word-spacing: 0.2rem;
+}
+
+.about-data .data-number {
+  color:#26867e;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Icon Styles */
+.icon-18 {
+  font-size: 1.8rem;
+}
+
+/* Media Queries */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .left-header::before {
+    width: 70%;
+  }
+}
+
+@media (min-height: 590px) {
+  .left-header::after {
+    height: 85%;
+  }
+}
+
+.middle
+{
+    justify-content: center;
+    align-items: center;
+}
+.col-lg-9 col-xl-8
+{
+    justify-content: center;
+    align-items: center;
+}
+.para
+{
+    font-weight: bolder;
+}

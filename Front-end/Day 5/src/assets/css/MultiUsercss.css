@@ -1,0 +1,140 @@
+/* MultiUsercss.css */
+
+.product-page .authors-container {
+    margin: 0 auto;
+}
+
+.con {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+  }
+  
+  .con1 {
+    text-align: center; /* Center text horizontally */
+  }
+  
+
+.authors-container {
+    width: 80%;
+    display: flex;
+}
+
+.authors-container[data-collaborators="2"] {
+    width: 130px;
+}
+
+.authors-container[data-collaborators="3"] {
+    width: 175px;
+}
+
+.authors-container[data-collaborators="4"] {
+    width: 5000px;
+}
+
+.authors-container .author {
+    float: left;
+    position: relative;
+    transition: opacity 0.25s;
+    -webkit-transition: opacity 0.25s;
+    z-index: 3;
+    margin-right: 20px; /* Add margin-right to create a gap between users */
+  }
+  
+  .authors-container .author:last-child {
+    margin-right: 0; /* Remove margin-right from the last child to prevent extra gap */
+  }
+  
+
+.authors-container .author:nth-child(1) {
+    z-index: 100;
+}
+
+.authors-container:hover .author {
+    opacity: .30;
+}
+
+.authors-container .author:hover {
+    opacity: 1;
+    z-index: 101;
+}
+
+.authors-container .account-photo {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    position: relative;
+}
+
+.authors-container .account-photo img {
+    width: 100%;
+}
+
+.authors-container .account-photo .mask {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    border-radius: 50%;
+}
+
+.authors-container .account-photo .account-type {
+    position: absolute;
+    bottom: -7px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: #999999;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    font-size: 13px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+.account-photo.account-early-adopter .account-type {
+    background-color: #05ae0e;
+}
+
+.account-photo.account-admin .account-type,
+.account-photo.account-product-owner .account-type {
+    background-color: #ffcd02;
+}
+
+.account-photo.mask {
+    border-color: rgba(0, 158, 255, 0.65);
+}
+
+.account-photo.account-early-adopter {
+    border-color: rgba(23, 152, 30, 0.55);
+}
+
+.account-photo.account-admin,
+.account-photo.account-product-owner {
+    border-color: rgba(255, 149, 0, 0.55);
+}
+
+.author {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    margin: 10px; /* Add margin between profile frames */
+  }
+  
+  .mask {
+    width: 100%; /* Ensure the profile photo fills the frame */
+    height: 100%; /* Ensure the profile photo fills the frame */
+  }
+  
+  .photo {
+    width: 100%; /* Ensure the profile photo fills the frame */
+    height: 100%; /* Ensure the profile photo fills the frame */
+    object-fit: cover; /* Ensure the photo covers the entire frame */
+    border-radius: 50%; /* Make the photo round */
+  }
+  
