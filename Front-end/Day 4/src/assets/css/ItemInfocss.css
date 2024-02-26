@@ -1,0 +1,119 @@
+.containerbir {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.bgimage {
+  padding: 20px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: calc(50% - 10px);
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.card-containere {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carde {
+  width: calc(33.333% - 20px); 
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-contente {
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.carde img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card-actionse button {
+  margin-right: 5px;
+}
+
+.button-containere {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.button-containere button {
+  margin-right: 10px;
+}
+
+.button {
+  padding: 8px 15px;
+  background-color: #26867e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ffb643;
+}
+
+.btncss {
+  background-color: #26867e;
+}
+
+.btncss:hover {
+  background-color: #ffb643;
+}
+
+.image-containere {
+  max-width: 200px; /* Set maximum width for the image container */
+  max-height: 200px; /* Set maximum height for the image container */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.image-containere img {
+  width: 100%; /* Make the image responsive to the container size */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+.upload-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #ffb643;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 3%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #26867e;
+}
+
+.upload-btn input[type="file"] {
+  display: none; /* Hide the actual file input */
+}

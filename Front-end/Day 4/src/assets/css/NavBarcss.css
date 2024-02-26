@@ -1,0 +1,85 @@
+/* src/components/NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Add this line */
+    align-items: center;
+    padding: 20px;
+    background-color:white;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #26867e;
+    margin: 0;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+  }
+  
+  .nav-links li {
+    margin-right: 50px;
+  }
+  
+  .nav-links li a {
+    color:#26867e;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: lightgray;
+  }
+  
+  
+  .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  .burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .line1,
+  .line2,
+  .line3 {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .open .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .open .line2 {
+    opacity: 0;
+  }
+  
+  .open .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .burger {
+      display: flex;
+    }
+  }
+  
