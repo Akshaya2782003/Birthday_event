@@ -1,0 +1,254 @@
+/* Profilecss.css */
+
+.profile-nav {
+  margin-top: 20px;
+}
+
+.profile-nav .panel {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  transition: border-color 0.3s ease; /* Add transition for border color */
+}
+
+.profile-nav .user-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-nav .user-heading img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-nav .user-heading h1 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.profile-nav .user-heading p {
+  font-size: 14px;
+}
+
+.profile-nav .nav-pills li a {
+  border-radius: 0;
+}
+
+.profile-info {
+  margin-top: 20px;
+}
+
+.profile-info .panel {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease; /* Add transition for border color */
+}
+
+.profile-info .panel textarea {
+  resize: none;
+}
+
+.profile-info .panel-footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  padding: 10px 15px;
+}
+
+.profile-info .nav-pills li {
+  margin-right: 10px;
+}
+
+.bio-graph-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.bio-graph-info h1 {
+  margin-top: 0;
+}
+
+.bio-row {
+  margin-bottom: 10px;
+}
+
+.bio-row span {
+  font-weight: bold;
+}
+
+
+body {
+  color: #797979;
+  background: #f1f2f7;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size: 13px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+
+.profile-nav,
+.profile-info {
+  margin-top: 30px;
+}
+
+.profile-nav .user-heading {
+  background: #26867e;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  padding: 30px;
+  text-align: center;
+}
+
+.profile-nav .user-heading.round a {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 10px solid rgba(255, 255, 255, 0.3);
+  display: inline-block;
+}
+
+.profile-nav .user-heading a img {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.profile-nav .user-heading h1 {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.profile-nav .user-heading p {
+  font-size: 12px;
+}
+
+.profile-nav ul {
+  margin-top: 1px;
+}
+
+.profile-nav ul > li {
+  border-bottom: 1px solid #ebeae6;
+  margin-top: 0;
+  line-height: 30px;
+}
+
+.profile-nav ul > li:last-child {
+  border-bottom: none;
+}
+
+.profile-nav ul > li > a {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  color: #89817f;
+  border-left: 5px solid #fff;
+}
+
+.profile-nav ul > li > a:hover,
+.profile-nav ul > li > a:focus,
+.profile-nav ul li.active a {
+  background: #f8f7f5 !important;
+  border-left: 5px solid #fbc02d;
+  color: #89817f !important;
+}
+
+.profile-nav ul > li:last-child > a:last-child {
+  border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+}
+
+.profile-nav ul > li > a > i {
+  font-size: 16px;
+  padding-right: 10px;
+  color: #bcb3aa;
+}
+
+
+
+
+.profile-info .panel-footer {
+  background-color: #f8f7f5;
+  border-top: 1px solid #e7ebee;
+}
+
+.profile-info .panel-footer ul li a {
+  color: #7a7a7a;
+}
+
+
+.bio-graph-info {
+  color: #89817e;
+}
+
+.bio-graph-info h1 {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+.bio-row {
+  width: 50%;
+  float: left;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+
+.bio-row p span {
+  width: 100px;
+  display: inline-block;
+}
+
+.bio-chart,
+.bio-desk {
+  float: left;
+}
+
+.bio-chart {
+  width: 40%;
+}
+
+.bio-desk {
+  width: 60%;
+}
+
+.bio-desk h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.bio-desk h4.terques {
+  color: #4CC5CD;
+}
+
+.bio-desk h4.red {
+  color: #e26b7f;
+}
+
+.bio-desk h4.green {
+  color: #97be4b;
+}
+
+.bio-desk h4.purple {
+  color: #caa3da;
+}
+
+.file-pos {
+  margin: 6px 0 10px 0;
+}
+.containerimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerimage img {
+  max-width: 70%; /* Adjust the width as needed */
+  height: auto;
+}

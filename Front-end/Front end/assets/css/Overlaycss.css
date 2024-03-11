@@ -1,0 +1,49 @@
+/* Style for cake cards */
+.cake-card {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .cake-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nextline
+  {
+    display: block;
+    margin-top: 30px;
+  }
+  /* Style for overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Style for Add New Cake button */
+  .add-cake-button {
+    background: red;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .add-cake-button:hover {
+    background: darkred;
+  }
+  

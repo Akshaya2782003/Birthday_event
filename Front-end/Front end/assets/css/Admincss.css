@@ -1,0 +1,39 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color:#26867e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right span {
+    margin-right: 10px;
+  }
+  
+  .navbar-right button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .navbar-right button:hover {
+    text-decoration: underline;
+  }
+  

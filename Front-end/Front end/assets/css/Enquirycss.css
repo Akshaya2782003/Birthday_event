@@ -1,0 +1,110 @@
+/* Enquirycss.css */
+
+@import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300);
+
+#style-2::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(245, 245, 245, 1);
+  z-index: 999;
+}
+
+#style-2::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ccc;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #cccccc;
+  z-index: 999;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%; /* Added to ensure equal spacing */
+}
+
+.image-container {
+  padding: 20px;
+  margin-right: 10%; /* Added to ensure equal spacing */
+}
+
+.image-container img {
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 10px;
+}
+
+.card.user-details-form {
+  margin-top: 20px;
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card.user-details-form .card-body {
+  padding: 20px;
+}
+
+.user-details-form div {
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+select,
+input[type='tel'],
+input[type='email'] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 10px;
+  box-sizing: border-box;
+}
+
+input[type='submit'] {
+  width:75%;
+  background-color: #26867e;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #ffb643;
+}
+
+.user-details-form {
+  font-size: 12px;
+}
+
+.user-details-form div {
+  margin-bottom: 10px;
+}
+
+span.user-details-country-placeholder {
+  color: #eaeaea;
+}
+.counselling {
+  margin-left: 10%;
+}
+label
+{
+    display: block;
+    font-size: 15px;
+}
+.sd
+{
+    color: #26867e;
+
+}
